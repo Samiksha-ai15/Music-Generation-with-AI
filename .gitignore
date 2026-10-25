@@ -1,0 +1,36 @@
+# Python virtual environments
+
+venv/
+venv311/
+.venv/
+
+# Python cache
+
+**pycache**/
+*.py[cod]
+
+# Local environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# IDE files
+
+.vscode/
+
+# Generated music files
+
+generated_music/*.mid
+generated_music/*.midi
+generated_music/*.wav
+
+# Dataset files
+
+data/midi/
+data/processed/
+
+# TensorFlow temporary files
+
+*.tmp
+*.log
